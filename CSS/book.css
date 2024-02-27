@@ -1,0 +1,120 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navBar{
+    display: flex;
+    justify-content: center;
+    background: rgb(134, 33, 33);
+    margin-top: 10px;
+    border-bottom: 2px solid rgb(114, 51, 51);
+}
+.inside input{
+    width: 200px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    font-size: medium;
+    padding-left: 10px;
+}
+.inside{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.inside h1{
+    color: white;
+    margin-top: 2px;
+}
+#routs{
+    width: 200px;
+    height: 32px;
+    border-radius: 3px;
+    color: rgb(52, 42, 53);
+    padding-left: 5px;
+}
+#search{
+    width: 100px;
+    height: 30px;
+    background: #76cc47;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    transition: all 0.5s ease-in-out;
+}
+#search:hover{
+    transform: translateY(-5px);
+}
+.seats{
+    background: #e23f3f;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.show-seats{
+    width: 50%;
+    height: 500px;
+    padding-bottom: 30px;
+    margin-left: 25%;
+    background: rgb(241, 235, 235);
+    display: none;
+    border-radius: 3px;
+    margin-top: -100px;
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    flex-direction: row;
+    gap: 0%;
+}
+
+.left{
+    width: 45%;
+    height: 400px;
+    margin-top: 70px;
+}
+#left2{
+    margin-left: -60px;
+}
+#right2{
+    margin-left: -60px;
+}
+#left1{
+    margin-left: 50px;
+}
+.right .row:first-child{
+    margin-top: 100px;
+}
+.left .row:first-child{
+    margin-top: 40px;
+}
+.right{
+    width: 45%;
+    height: 400px;
+    margin-top: 70px;
+
+}
+
+.seat{
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background: rgb(207, 196, 196);
+    
+}
+.seat p{
+    font-size: 15px;
+    padding-left: 16px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    color: rgb(93, 84, 84);
+    
+}
+.seat:hover{
+    background: greenyellow;
+}
